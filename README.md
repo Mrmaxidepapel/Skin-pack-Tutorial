@@ -10,7 +10,7 @@ you will need to create a new folder called **Actors**.
 
 - Now that you have the folder you will enter to the [main.lua](https://www.mediafire.com/file/bojweq4qgdoun9w/main.lua/file) file and you will edit this:
 
-![Screenshot_2023-10-12-17-51-22-100-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/aea8e42a-4204-4bab-bd89-639e05369289)
+![Screenshot_2023-10-12-17-51-22-100-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/6e297b4e-3878-437e-9439-dc0c425129c9)
 
 - The name value will be used for the **name**.
 
@@ -25,7 +25,8 @@ you will need to create a new folder called **Actors**.
 
 - Take this image into account:
 
-![Screenshot_2023-10-12-17-52-02-887-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/2d6c23ec-e14f-40f0-9237-b5dad097aacd)
+![Screenshot_2023-10-12-17-52-02-887-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/7e54d536-1a50-4e78-a21a-946a038ef2dc)
+
 
 - The value that starts with **E_** It will be our indicator for the model.
 
@@ -47,7 +48,8 @@ you will need to create a new folder called **Actors**.
 
 - Now with everything ready, lets move to this value:
 
-![Screenshot_2023-10-12-17-52-31-362-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/96d244d8-514d-481e-9a30-a1e0ebf53c4c)
+![Screenshot_2023-10-12-17-52-31-362-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/752ec4fe-9c7d-4a81-8192-40645a3f410c)
+
 
 - Here they will be added to the list, to add them you will use the indicators previously made.
 
@@ -61,7 +63,7 @@ you will need to create a new folder called **Actors**.
 
 - We have everything done, we need the last step, **add the names for the indicators/models**, When setting the indicator, we will have to indicate a name, we will go down to this value:
 
-![Screenshot_2023-10-12-17-52-52-728-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/ed747994-e755-48fd-a4c1-02ebd39c2314)
+![Screenshot_2023-10-12-17-52-52-728-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/cf4acac0-02d9-4f5c-8a85-c6bbe9a4816d)
 
 
 - Now with this we will put the names in the same order of the indicator also added in **Add Models -- Add to the list 1**.
@@ -90,7 +92,8 @@ you will need to create a new folder called **Actors**.
 
 - This one is simple:
 
-![Screenshot_2023-10-12-17-53-35-946-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/f7c7ece1-4f46-4228-a1ed-b28939c20d56)
+![Screenshot_2023-10-12-17-53-35-946-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/9e0f9b7a-feb7-42dc-a79a-22c94e440209)
+
 
 - The first 2 and 4 values ​​will be used for selection sounds, the 3rd sound will be used for finish selecting
 
