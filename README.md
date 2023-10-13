@@ -43,6 +43,28 @@
 
 - Note that it's recommended to use short or abbreviated names.
 
+## Part 1.5: Adding Files to the Models
+
+- Now with all the values we are going to assign their models:
+
+![Screenshot_2023-10-13-13-39-55-358-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/aaa91f3c-7181-48ce-a356-d74c247556a6)
+
+- Let's take our Render96 Mario how example
+
+- We need his model in .bin:
+
+![Screenshot_2023-10-13-13-40-47-889-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/2605a6a2-bf41-4b77-863a-f0082cf0355c)
+
+- Now, let's take it to **Actors**
+
+- When is inside, we're going to return to the [main.lua](https://www.mediafire.com/file/bojweq4qgdoun9w/main.lua/file) file and we will see this value:
+
+![Screenshot_2023-10-13-13-42-44-952-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/841f4435-5d30-4715-b905-c0edac987056)
+
+- The model name will go there
+
+- Remember that they must finish on **_geo**
+
 ## Part 2: Adding the model variables to the list
 
 ![Screenshot_2023-10-12-17-52-31-362-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/cdb758a3-1e65-4ccb-a1a3-2cbe554dca09)
