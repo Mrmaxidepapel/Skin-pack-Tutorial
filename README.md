@@ -1,112 +1,112 @@
-# Skin-pack-Tutorial (Ex-coop And PC-PORT)
+# Skin-Pack Tutorial (sm64ex-coop)
 
-- This Tutorial will explain step by step how to make a Skin-pack for **sm64ex-coop** or **SM64PC-Port**.
+- In this tutorial, I will explain step-by-step how to make a Skin-Pack for **sm64ex-coop**
 
-- All this text includes a file with the [main.lua](https://www.mediafire.com/file/bojweq4qgdoun9w/main.lua/file) file of a skin pack.
+- First of all, you will need to create a folder for your mod. You can choose any name you'd like
 
-- First of all an **important notice**:
+- Inside it, make a new folder called **"actors"**
 
-you will need to create a new folder called **Actors**.
+- Leave the **"actors"** folder and download this file in your main folder: [main.lua](https://www.mediafire.com/file/bojweq4qgdoun9w/main.lua/file)
 
-- Now that you have the folder you will enter to the [main.lua](https://www.mediafire.com/file/bojweq4qgdoun9w/main.lua/file) file and you will edit this:
+- Open it with any text editor you choose
 
-![Screenshot_2023-10-12-17-51-22-100-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/6e297b4e-3878-437e-9439-dc0c425129c9)
+- When you open the file, you should see something like this:
 
-- The name value will be used for the **name**.
+![Screenshot_2023-10-12-17-51-22-100-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/27abe328-51a6-4102-9a7e-6bd68894059f)
 
-- The incompatible version will be used for point out what will not be compatible, example:
+- Let's start with the **name** value. Firstly, replace "skin pack name" with the name of your choice for your mod.
 
-```-- incompatible: romhack```
-- The Description value will be used for as it says, the description of your skin pack.
+- Next, we have the **incompatible** value. Whatever you put in this value will be unable to load if you have your Skin-Pack enabled. Some examples are
 
-- Now that you know that, let's move on to:
+```incompatible:romhack``` ```incompatible:moveset```
 
-## Add Models -- indicators
+- For the last value, we have the **description** value. This is pretty straightforward, just put the description of your Skin-Pack.
+
+## Part 1: Adding models
 
 - Take this image into account:
 
-![Screenshot_2023-10-12-17-52-02-887-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/7e54d536-1a50-4e78-a21a-946a038ef2dc)
+![Screenshot_2023-10-12-17-52-02-887-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/2ce23ce0-13db-45fb-8534-99b3499d3d05)
 
 
-- The value that starts with **E_** It will be our indicator for the model.
-
-- Every indicator must start with **E_**.
-
-- You will need a name to indicate it, for example the image shows the name of:
+- You will need a name for your model, for example the image shows:
 
 ```E_MODEL_NAME```
 
-- Let's take Mario Render96 as an example:
+- Every model variable (in this case it's E_MODEL_NAME) must have **E_** as its prefix.
+
+- Let's use the Render96 Mario model as an example:
+
+- We could use any of these:
 
 ```E_MARIO_R96``` / ```E_RENDER96_M```
 
-- It is best to use short or abbreviated names.
+- Note that it's recommended to use short or abbreviated names.
 
-- Now that you know, let's move on to:
+## Part 2: Adding the model variables to the list
 
-## Add Models -- Add to the list 1
+![Screenshot_2023-10-12-17-52-31-362-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/cdb758a3-1e65-4ccb-a1a3-2cbe554dca09)
 
-- Now with everything ready, lets move to this value:
-
-![Screenshot_2023-10-12-17-52-31-362-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/752ec4fe-9c7d-4a81-8192-40645a3f410c)
+- Here you will have to put the previously made model variables (E_MARIO_R96, etc).
 
 
-- Here they will be added to the list, to add them you will use the indicators previously made.
 
-- If you want to add more you will leave a space to add another, something like this would be:
-
-```{E_MARIO_R96, E_OTHER_MODEL}```
-
-- Now with all this done, let's move on to:
-
-## Add Models -- Add to the list 2
-
-- We have everything done, we need the last step, **add the names for the indicators/models**, When setting the indicator, we will have to indicate a name, we will go down to this value:
-
-![Screenshot_2023-10-12-17-52-52-728-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/cf4acac0-02d9-4f5c-8a85-c6bbe9a4816d)
+- If you want to add more variables, you can leave a space to add multiple variables, which would result in something like this:
 
 
-- Now with this we will put the names in the same order of the indicator also added in **Add Models -- Add to the list 1**.
 
-- For example:
+```{nil, E_MARIO_R96, E_OTHER_MODEL}```
 
-```{E_RENDER96_M, E_OTHER_MODEL, E_OTHER_MODEL_2```
 
-- oh right, when you name the indicators they will be marked with a **('text')**
 
-```{'Render96 Mario', 'Other Model 1', 'Other Model 2'}```
+## Part 3: Adding the model names to the list
+
+
+
+- Now that we have added the model variables, we're on the last required step!
+
+
+
+- Let's go down to this section:
+
+![Screenshot_2023-10-12-17-52-52-728-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/40103162-74c8-4120-93c4-3ad55fb8b5a7)
+
+- You will have to put the names for the models you chose.
+
+- Remember to write the names like this: {'Model 1', 'Model 2'}
+
+- Here's an example with the Render96 model from earlier:
+
+```{nil, E_RENDER96_M, E_OTHER_MODEL, E_OTHER_MODEL_2```
+
+```{'Default', 'Render96 Mario', 'Other Model 1', 'Other Model 2'}```
 
 **WARNING**:
 
-- The wrong way would be this:
+- Remember to make the order of the variables and names match.
+
+- This is an example of what it would look like if the names and variables didn't match.
 
 ```{E_RENDER96_M, E_OTHER_MODEL, E_OTHER_MODEL_2}```
 
 ```{'Other Model 2', 'Render96 Mario', 'Other Model'}```
 
-**END OF WARNING**
+## Changing sounds (optional)
 
-- Finally:
-
-## Custom Sounds
+(Note that this doesn't mean adding sounds of your own. This is for changing the sounds to other ones already in the game.)
 
 - This one is simple:
 
-![Screenshot_2023-10-12-17-53-35-946-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/9e0f9b7a-feb7-42dc-a79a-22c94e440209)
+![Screenshot_2023-10-12-17-53-35-946-edit_com ace ex file manager](https://github.com/Mrmaxidepapel/Skin-pack-Tutorial/assets/143361819/b81c6a4c-2a89-41f8-803e-24b8e558138e)
 
+- Change the sounds to the ones you prefer.
 
-- The first 2 and 4 values ​​will be used for selection sounds, the 3rd sound will be used for finish selecting
+## Important information
 
-- We are done with:
+- 1) All models must have the .bin file extension, do not add any textures or .c files.
 
-## Some stupid rules
+- 2) Remember you cannot put spaces in your model variables, you can use this instead: **_**
 
-- 1) All models must be in .bin, without textures or .c files
+- 3) The main.lua file used is a version without credits at the top, maybe soon I will release the version with credits...
 
-- 2) To put spaces in the indicators, a **(_)** will be used
-
-- 3) The version shown is a version without credits at the top, maybe soon I will release the version with credits...
-
-## Now...
-
-- With all this information you are ready to make your own skin packs step by step for sm64ex-coop or PC-Port!!!
+## Thank you for reading this, if you find any problems just use the Issues tab.
